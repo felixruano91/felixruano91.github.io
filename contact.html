@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FRP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    
+
+<!-- this is the top of the website, where my nav bar and nav home will be-->
+<header>
+
+    <!--This is where my nav bar starts, this whole division is for all the content inside of it.-->
+    <div class="nav-bar">      
+
+        <!--nav home is where "Felix Ruano" will be displayed inside of a blue box.-->
+        <div id="nav-home">
+            
+            <h1>Felix Ruano</h1>
+
+        </div>
+
+     <!--all the links inside my navigation menu-->
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+</header>
+
+<br>
+
+
+<!--The body wrapper is where the content of the webpage will be-->
+<section class="body-wrapper">
+        
+    <!--The title of the body wrapper depending where am I-->
+    <h2 class="body-heading">Contact Me</h2><br>
+
+
+
+    <!--Container for contact.html-->
+
+    <div class="container-contact">
+
+        <form action="action_page.php">
+
+            <label for="username">Name</label>
+            <input type="text" name="username" id="username" placeholder="Your name.">
+
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Your email.">
+
+            <label for="message">Message</label>
+            <textarea type="text" name="message" id="message" style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+            
+        </form>
+
+    </div>
+      
+</section>
+
+<!--Bottom part of the page-->
+<footer>
+    <div id="footer-copyright">
+        <p id="copyright-text">Copyright ©</p>
+    </div>
+</footer>
+
+    
+</body>
+</html>
