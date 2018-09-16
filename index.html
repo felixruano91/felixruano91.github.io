@@ -1,69 +1,82 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FRP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="index.js"></script>
+</head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Bootstrap-Portfolio</title>
-  </head>
+<body>
 
-  <body>
-      
-      <nav class="navbar navbar-expand-lg navbar-light bg-light main-nav">
-          <div class="container">
-          <a class="navbar-brand justify-content-start" style="color: white" href="#"><h1>Felix Ruano</h1></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav menu-ul nav-tabs">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-             </li>
-           </ul>
-         </div>
+    
+
+<!-- this is the top of the website, where my nav bar and nav home will be-->
+<header>
+
+    <!--This is where my nav bar starts, this whole division is for all the content inside of it.-->
+    <div class="nav-bar">  
+
+        <!--nav home is where "Felix Ruano" will be displayed inside of a blue box.-->
+        <div id="nav-home">
+            
+            <h1>Felix Ruano</h1>
+            
         </div>
-       </nav>
+
+     <!--all the links inside my navigation menu-->
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+</header>
 
 <br>
-  
-      <div class="container bodyWrapper">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="page-header" style="color: #4aaaa5;">
-              <h2>About me</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <img src="https://via.placeholder.com/200x200" alt="Bio Image" class="rounded float-left bioImage">
-            <p>Millenial looking for hot job opportunities. My name is Felix Ruano and I'm 19 years old, I currently live in Merida, Yucatan and this is my portfolio. I was born in Cozumel, Quintana Roo and raised in 7 different states, some of the places where I lived appart from Cozumel are: Mexico City, Puebla, Xalapa, Puerto Vallarta and Merida. I've spent most of my life in Merida and I'm absolutely in love with the city. I had the great opportunity to live in so many different places because of my dad's job, he's been working in the hotel industry for quite some time and we've always been on the move. After many years of constant moving we decided that Merida has been our favorite place by far.</p> <br>
-            <p>Some interesting info about me is that I'm currently going through some rough times with my family but I've learned to live with it, I consider myself a hiphop head and I have a deep pasion for video games. Hopefully I will be able to make one someday in the future. I dropped out of college a couple of months ago because of personal reasons, since then I've been on the look out for a coding bootcamp or online courses to keep learning about programming. I studied one semester of CS at Anahuc Mayab here in Merida but I decided that college wasn't for me, luckily I found this Bootcamp and it has been an amazing experience so far. I will be posting some projects in this portfolio, hope you all like it.</p>
-          </div>
-        </div>
-      </div>
 
-      <footer class="footer">
-          <div class="container">
-            <span class="text-light">Copyright ©</span>
-          </div>
-      </footer>
+
+<!--The body wrapper is where the content of the webpage will be-->
+<section class="body-wrapper">
+        
+    <!--The title of the body wrapper depending where am I-->
+    <h2 class="body-heading">About Me</h2><br>
+
+
+
+    <div class="container-index">
+
+        <section id="bio-image">
+
+            <img src="../Basic-Portfolio/assets/images/IMG_3449.JPG" alt="Picture of Felix" class="rotateimg90"><br>
+
+        </section>
+
+    </div>
+      
+
+    <p>Millenial looking for hot job opportunities. My name is Felix Ruano and I'm 19 years old, I currently live in Merida, Yucatan and this is my portfolio. I was born in Cozumel, Quintana Roo and raised in 7 different states, some of the places where I lived appart from Cozumel are: Mexico City, Puebla, Xalapa, Puerto Vallarta and Merida. I've spent most of my life in Merida and I'm absolutely in love with the city. I had the great opportunity to live in so many different places because of my dad's job, he's been working in the hotel industry for quite some time and we've always been on the move. After many years of constant moving we decided that Merida has been our favorite place by far.</p> <br>
+    <p>Some interesting info about me is that I'm currently going through some rough times with my family but I've learned to live with it, I consider myself a hiphop head and I have a deep pasion for video games. Hopefully I will be able to make one someday in the future. I dropped out of college a couple of months ago because of personal reasons, since then I've been on the look out for a coding bootcamp or online courses to keep learning about programming. I studied one semester of CS at Anahuc Mayab here in Merida but I decided that college wasn't for me, luckily I found this Bootcamp and it has been an amazing experience so far. I will be posting some projects in this portfolio, hope you all like it.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi interdum laoreet justo non sollicitudin. Curabitur ac aliquam nisl. Sed hendrerit diam rhoncus, lacinia ante lacinia, placerat elit. Sed gravida, felis quis imperdiet venenatis, nibh elit mattis ipsum, pharetra lobortis mauris enim in nunc. Donec vitae ornare tortor, vitae tempor turpis. Aliquam faucibus dolor sit amet massa ultrices, at molestie dui accumsan. Quisque ullamcorper ac velit sit amet sodales. Cras lacinia lorem sed sagittis ultrices. Ut sed ipsum eu mauris suscipit euismod egestas vitae nunc. Sed sed lobortis sem, eu pretium eros.</p>
+
+
+</section>
+
+<!--Bottom part of the page-->
+<footer>
+    <div id="footer-copyright">
+        <p id="copyright-text">Copyright ©</p>
+    </div>
+</footer>
     
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+
+
+</body>
 </html>
