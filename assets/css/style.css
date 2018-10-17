@@ -1,263 +1,99 @@
-/*Basic Portfolio layout, everything in this CSS file will be the structure of my 3 links.*/
-
-/*this modifies the whole body of the webpage, not to be confused with the body-wrapper.*/
 body {
-    background-image: url(../images/meatballs.png);
+    background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/762800/2a5f9d6e1c74a3e820814cd3bb4ad89c4638a4b4.jpg); 
     background-size: cover;
     font-family: "Georgia", 'Times New Roman', Times, serif;
     line-height: 150%;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
-/*Styling for the font of "Felix Ruano" on the header*/
 h1 {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 32px;
+    margin: 0;
+    padding: 10px;
     font-weight: bold;
-    height: 36px;
-    width: 290px;
 }
 
-/*Styling for the blue title in the body-wrapper: "About Me", "Portfolio" and "Contact Me".*/
 h2 {
     padding-bottom: 20px;
     border-bottom: 2px solid #dddddd;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: inherit;
 }
 
 p {
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    line-height: 200%;
+    line-height: 180%;
     font-size: 16px;
 }
 
-.nav-bar {
-    margin: 0 auto;
-    overflow: auto;
-    width: 960px;
-}
-
-/*nav-home is my name on the header*/
-#nav-home {
-    background-color: #4aaaa5;
-    color: white;
-    float: left;
-    padding: 10px 30px 0px 30px;
-    text-align: center;
-    text-decoration: none;
-}
-
-/*the settings for my whole header, this is where my nav-home and nav-bar are.*/
-header {
-    background-color: white;
-    margin: 0 auto;
-    border-top: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
-}
-
-header::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-/*nav is my navigation bar, I have the links for the other pages here, float right so it has its own space on the header.*/
-nav {
-    float: right;
-    position: relative;
-}
-
-/*the settings for the list I created for the nav bar, here I remove the "list" factor from it*/
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-/*this is to make the list on the nav bar horizontal, instead of vertical*/
-nav li {
-    display: inline-block;
-    margin-left: 0px;
-    padding-top: 40px;
-}
-
-/*This adds the | in between the components of my list.*/
-nav li + li:before{
-    content: " | ";
-    padding: 0 10px;
-}
-
-/*Here I just style the nav bar to my liking, caps so it looks cooler and no text decoration (doesn't look like a link).*/
-nav a {
-    color: grey;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-
-/*adds the cool effect whenever I hover my mouse on any of the links.*/
-nav a:hover {
-    color: #000;
-}
-
-/*turns the link into the "main color" whenever I click it*/
-nav a:active {
-    color: #4aaaa5;
-}
-
-/*This is were the main content for the 3 links is gonna be 960px wide with an automatic height depending on the content of the page.*/
-.body-wrapper {
-    background-color: white;
-    border-radius: 5px;
-    border: 2px solid #dddddd;
-    margin: 40px auto;
-    width: 960px;
-    height: auto;
-    padding: 30px 30px 30px 30px;
-    margin: 20px auto;
-    width: 960px;
-    height: auto;
-    padding: 30px 30px 0px 30px;
-    overflow: hidden;
-}
-
-/*This is the title in the body wrapper, above the grey line.*/
-
-.body-heading {
-
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0px 0px 28px 0px;
-    padding-bottom: 20px;
-    width: 960px;
-    height: 30px;
-}
-
-/*This is my footer, had to fixed it to the bottom, otherwise it would be in the middel of the screen.*/
 footer {
     position: fixed;
+    bottom: 0;
     width: 100%;
-    border-top: 10px solid #4aaaa5;
+    padding: 5px;
+    line-height: 60px;
     background-color: #666666;
-    bottom: 0;
-    padding: 20px;
-}
-
-/*The text inside my footer.*/
-#copyright-text {
-    bottom: 0;
-    color: #dddddd;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 80%;
-    position: relative;
+    border-top: 10px solid #4aaaa5;
 }
 
-.container-index img {
-    clear: both;
-    max-width: 100%;
-    float: left;
+.navbar {
+    width: 100%;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0 auto;
 }
 
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    position: relative;
-}
-
-.column {
-    flex: 25%;
-    max-width: 24%;
-    padding: 0 4px;
-    position: relative;
-}
-
-.column img {
-    margin-top: 10px;
-    vertical-align: middle;
-}
-
-
-.centered {
-    clear: both;
-    position: absolute;
-    top: 80%;
-    left: 44%;
-    transform: translate(-50%, -50%);
-    background-color: #4aaaa5;
-    color: white;
-    padding: 5px 5px;
+.navbar-brand {
+    background-color: #4aaaa5; 
+    padding: 10px 10px 10px 10px;
+    text-align: center; 
     text-decoration: none;
-    width: 80%;
+    font-size: 24px;
+    margin: 0 auto;
     text-align: center;
 }
 
-/*Iffy stuff to make my bio-image vertical.*/
-.rotateimg90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
+.bodyWrapper {
+    background-color: white; 
+    border-radius: 5px; 
+    border: 2px solid #dddddd;  
+    height: auto; 
+    padding: 10px 10px; 
+    margin-bottom: 100px; 
+    overflow: hidden;
+    max-width: 960px;
 }
 
-/*Settings for my bio-image, hardest part for the index.html.*/
-#bio-image {
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-left: 0px;
-    width: 300px;
-    height: 300px;
-    clear: both;
-    float: left;
+.bioImage {
+    margin: 7px 20px 10px 0px;;
 }
 
-
-/*contact.html starts here.*/
-
-input[type=text], select, textarea {
-    clear: both;
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #777777; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-input[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #4CAF50;
-}
-
-.container-contact {
+.contactMeWrapper {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.card {
+    margin: 20px 10px;
+}
+
+.card-title {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    padding: 20px 20px;
+    width: 100%;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+
