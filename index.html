@@ -1,69 +1,229 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Felix Ruano</title>
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Bootstrap-Portfolio</title>
-  </head>
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
-  <body>
-      
-      <nav class="navbar navbar-expand-lg navbar-light bg-light main-nav">
-          <div class="container">
-          <a class="navbar-brand justify-content-start" style="color: white" href="#"><h1>Felix Ruano</h1></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav menu-ul nav-tabs">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-             </li>
-           </ul>
-         </div>
-        </div>
-       </nav>
+    <!-- main css -->
+    <link href="assets/css/style.css" rel="stylesheet">
 
-<br>
-  
-      <div class="container bodyWrapper">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="page-header" style="color: #4aaaa5;">
-              <h2>About me</h2>
+
+    <!-- modernizr -->
+    <script src="assets/javascript/modernizer.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
             </div>
-          </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <img src="https://via.placeholder.com/200x200" alt="Bio Image" class="rounded float-left bioImage">
-            <p>Millenial looking for hot job opportunities. My name is Felix Ruano and I'm 19 years old, I currently live in Merida, Yucatan and this is my portfolio. I was born in Cozumel, Quintana Roo and raised in 7 different states, some of the places where I lived appart from Cozumel are: Mexico City, Puebla, Xalapa, Puerto Vallarta and Merida. I've spent most of my life in Merida and I'm absolutely in love with the city. I had the great opportunity to live in so many different places because of my dad's job, he's been working in the hotel industry for quite some time and we've always been on the move. After many years of constant moving we decided that Merida has been our favorite place by far.</p> <br>
-            <p>Some interesting info about me is that I'm currently going through some rough times with my family but I've learned to live with it, I consider myself a hiphop head and I have a deep pasion for video games. Hopefully I will be able to make one someday in the future. I dropped out of college a couple of months ago because of personal reasons, since then I've been on the look out for a coding bootcamp or online courses to keep learning about programming. I studied one semester of CS at Anahuc Mayab here in Merida but I decided that college wasn't for me, luckily I found this Bootcamp and it has been an amazing experience so far. I will be posting some projects in this portfolio, hope you all like it.</p>
-          </div>
-        </div>
-      </div>
+    </div>
+    <!-- end Preloader -->
 
-      <footer class="footer">
-          <div class="container">
-            <span class="text-light">Copyright ©</span>
-          </div>
-      </footer>
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <div class="container-fluid">
+        <!-- box header -->
+        <header class="box-header">
+            <div class="box-logo">
+              
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box header -->
+
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <!--<li><a href="files/filename.pdf" target="_blank">Resume </a></li>-->
+                <li><a href="https://github.com/felixruano91"><ion-icon name="logo-github" size="large"></ion-icon><br>GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/felix-ruano-65a330168/"><ion-icon name="logo-linkedin" size="large"></ion-icon></ion-icon><br>LinkedIn</a></li>
+                <li><a href="mailto: felixruano.91@gmail.com" class="social-list_item-link"><ion-icon name="mail" size="large"></ion-icon></ion-icon><br>Email</a></li>
+            </ul>
+            
+        </nav>
+        <!-- end nav -->
+
+        <!-- box-intro -->
+        <section class="box-intro">
+            <div class="table-cell">
+                <h1 class="box-headline letters">
+                    <span class="box-words-wrapper">
+                        <b class="is-visible">hola!</b>
+                    </span>
+		        </h1>
+                <h5>I'm Felix Ruano,</h5>
+                <h5> a <em>Full Stack Developer</em> living in Merida, MX</h5>
+                <h5>currently <em>self studying</em> </h5>
+            </div>
+
+            <div class="mouse">
+                <div class="scroll"></div>
+            </div>
+        </section>
+        <!-- end box-intro -->
+    </div>
+
+    <!-- portfolio div -->
+    <div class="portfolio-div">
+        <div class="portfolio">
+            <div class="no-padding portfolio_container">
+                <!-- single work -->
+                <div class="col-md-4 col-sm-6 photography">
+                    <a href="https://felixruano91.github.io/Auxilium/index.html" class="portfolio_item" id="portfolio_top">
+                        <img src="assets/images/Auxilium.PNG" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Auxilium</span>
+                                    <h5>An in-the-moment web application to help people that suffer panic attacks</h5>
+                                    <em>Visit Website</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-4 col-sm-6 graphics ads">
+                    <a href="https://felixruano91.github.io/Word-Guess-Game/" class="portfolio_item">
+                        <img src="assets/images/Hangman.PNG" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Cyberpunk Hangman</span>
+                                    <h5>A web-based hangman game with a cyberpunk theme!</h5>
+                                    <em>Visit Website</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-4 col-sm-6 graphics ads">
+                    <a href="https://felixruano91.github.io/TriviaGame" class="portfolio_item">
+                        <img src="assets/images/Trivia.PNG" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Star Wars Trivia</span>
+                                    <h5>A web-based trivia game with timers and a variety of questions.</h5>
+                                    <em>Visit Website</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+                
+                 <!-- single work -->
+                <div class="col-md-4 col-sm-6 photography">
+                    <a href="security-pulse.html" class="portfolio_item" id="portfolio_top">
+                        <img src="assets/images/Giphy.PNG" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Show Me Your Gifs</span>
+                                    <h5>A gif searcher powered by Giphy API.</h5>
+                                    <em>Visit Website</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-4 col-sm-6 graphics ads">
+                    <a href="https://felixruano91.github.io/Train_Scheduler/" class="portfolio_item">
+                        <img src="assets/images/Trains.PNG" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Train Scheduler</span>
+                                    <h5>A web-based scheduler powered with Firebase and Monet.js</h5>
+                                    <em>Visit Website</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-4 col-sm-6 graphics ads">
+                    <a href="prantls.html" class="portfolio_item">
+                        <img src="assets/images/Crystals.PNG" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Crystal Collector</span>
+                                    <h5>Trippy crystal game</h5>
+                                    <em>Visit Website</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+            </div>
+            <!-- end portfolio_container -->
+        </div>
+        <!-- portfolio -->
+    </div>
+    <!-- end portfolio div -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">© Felix Ruano 2018</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><ion-icon name="arrow-up" size="medium"></ion-icon></a>
+    <!-- end back to top -->
+
+
+
+    <!-- jQuery -->
+    <script src="assets/javascript/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="assets/javascript/bootstrap.min.js"></script>
+    <script src="assets/javascript/menu.js"></script>
+    <script src="assets/javascript/animated-headline.js"></script>
+    <script src="assets/javascript/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>
+
+
+    <!--  custom script -->
+    <script src="assets/javascript/script.js"></script>
+
+</body>
+
 </html>
